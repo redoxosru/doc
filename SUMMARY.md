@@ -12,7 +12,7 @@
     * [Почему Rust?](introduction/why_rust.md)
         * [Heartbleed: A case study]()
         * [Unsafes](introduction/unsafes.md)
-    * [Why MIT?](introduction/why_mit.md)
+    * [Почему MIT?](introduction/why_mit.md)
     * [How Redox compares to other operating systems](introduction/how_redox_compares_to_other_operating_systems.md)
     * [The target of Redox]()
     * [Will Redox replace Linux?](introduction/will_redox_replace_linux.md)
