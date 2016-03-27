@@ -1,1 +1,10 @@
-{ "title": "Документация по Redox OS" }
+{
+  "title": "Документация по Redox OS",
+  "language": "ru",
+  "plugins": ["ga"],
+  "pluginsConfig": {
+    "ga": {
+        "token": "UA-11915603-14"
+    }
+  }
+}
