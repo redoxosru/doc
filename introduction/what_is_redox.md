@@ -5,20 +5,19 @@ Redox — что это?
 
 Redox это попытка сделать законченную, полнофункциональную операционную систему общего назначения сфокусированную на безопасности, надежности, правильности (correctness) и прагматизме.
 
-Цель Redox
+К чему мы стремимся
 ------------------
+Мы хотим использовать Redox на наших компьютерах как альтернативу Linux. Redox должен запускать большое количество программ, написанных для Linux, без их серъёзных модификаций.
 
-We want to be able to use it, without obstructions, as a alternative to Linux on our computers. It should be able to run pretty most Linux programs with only minimal modifications.
+Мы стремимся к полной и безопасной экосистеме Rust. Такой дизайн, как мы надеемся, повысит корректность  безопасность работы системы (смотрите `Почему Rust?`)
 
-We're aiming towards a complete, safe Rust ecosystem. This is a design choice, which hopefully improves correctness and security (see `Why Rust?`).
+Мы хотим улучшить безопасность по сравнению с другими, UNIX-подобными, системами, используя безопасные значения по умолчанию и избегая небезопасные конфигурации всегда, когда это возможно.
 
-We want to improve the security design when compared to other Unix-like kernels by using safe defaults and disallowing insecure configurations where possible.
-
-The non-goals of Redox
+К чему мы не стремимся
 ----------------------
 
-We are not a Linux clone, or POSIX-compliant, nor are we crazy scientists, who wishes to redesign everything. Generally, we stick to the well-tested and proven correct designs. If it ain't broken don't fix it.
+Мы не хотим создать клон Linux или другой, POSIX-совместимой ОС. Мы не сумасшедшие ученые, которые ставят перед собой цель все переписать. В основном мы придерживаемся хорошо протестированному и проверенному дизайну. Если это не сломано, то не надо это чинить.
 
-This means that a large number of standard programs and libraries will be compatible with Redox. Some things that do not align with our design decisions will have to be ported.
+Это означает, что большое число стандартных программ и библиотек должны быть совместимы с Redox. То, что не соответсвует нашему дизайну, не будет портировано.
 
-The key here is the trade off between correctness and compatibility. Ideally, you should be able achieve both, but unfortunately, you can't always do so.
+Мы стараемся найти компромисс между совместимостью и корректностью. В идеале, вы должны получить и то, и другое но, к сожалению, это не всегда возможно.
